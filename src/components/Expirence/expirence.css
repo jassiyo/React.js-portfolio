@@ -1,0 +1,67 @@
+.expirenceContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.expirenceContainer > div{
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    background-color: var(--color-bg-variant);
+    padding: 2rem 5rem;
+    transition: var(--transition);
+}
+.expirenceContainer > div:hover{
+    background-color: var(--color-primary-variant);
+}
+
+.expirenceContainer > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.expirenceContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.expirenceDetail{
+    display: flex;
+    gap: 1rem;
+}
+.expirenceDetailIcons{
+    margin-top: 5px;
+    color: var(--color-primary);
+}
+
+ /* ============ Media Quires (Medium devices) ================ */
+  
+ @media screen and (max-width:1024px){
+    .expirenceContainer{
+        grid-template-columns: 1fr;
+    }
+    .expirenceContainer > div{
+        width: 70%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .expirenceContent{
+        padding: 1rem;
+    }
+  
+  }
+  
+  /* ============ MEDIA QUERY (SMALL DEVICES)==========*/
+  
+  @media screen and (max-width:600PX){
+     .expirenceContainer{
+        gap: 1rem;
+     }
+     .expirenceContainer > div {
+        margin-top: 1rem; 
+        width: 100%;
+        padding: 2rem 1rem;
+     }
+     
+  }

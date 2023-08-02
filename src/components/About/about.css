@@ -1,0 +1,115 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 35% 55%;
+    gap:5%;
+}
+
+.aboutMe{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background:linear-gradient(45deg, transparent, var(--color-primary, transparent));
+    display: grid;
+    place-items: center;
+}
+
+.aboutMeImage{
+    height: 101%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+
+.aboutMeImage:hover{
+    transform: rotate(0deg);
+    transition:  var(--transition);
+}
+
+.aboutCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutCard{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: inset 0px 0px 8px 0px var(--color-primary) ;
+
+}
+.aboutCard:hover{
+    background: var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.aboutIcon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutCard h5{
+    font-size: 0.8rem;
+}
+
+.aboutCard small{
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+
+.aboutContent p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+
+/* ============ MEDIA QUERY (MEDIUM DEVICES)==========*/
+
+@media screen and (max-width:1024px){
+    .aboutContainer{
+        grid-template-columns: 1fr;
+        gap: 1;
+    }
+    .aboutMe{
+        width: 50%;
+        margin: 2rem auto 2rem;
+    }
+    .aboutContent p{
+        margin: 1rem 0 1.5rem;
+    }
+    /* #about{
+        height: 140vh;
+    } */
+}
+/* ============ MEDIA QUERY (SMALL DEVICES)==========*/
+
+@media screen and (max-width:600PX){
+    .aboutMe{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .aboutCards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .aboutContent{
+        text-align: center;
+    }
+    .aboutContent p{
+        margin: 1.5rem 0;
+    }
+    /* #about{
+        height: 170vh;
+    } */
+
+}
+
+@media screen and (max-width:380PX){
+    #about{
+        height: 180vh;
+    }
+    
+}
