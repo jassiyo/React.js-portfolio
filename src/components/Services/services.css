@@ -1,0 +1,75 @@
+.serviceContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.service{
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 0px solid var(--color-primary);
+    height: fit-content;
+    box-shadow: inset 0px 0px 12px 0px var(--color-primary) ;
+    transition: var(-transition);
+}
+
+.service:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.serviceHead{
+    border-radius: 0 0 2rem 2rem;
+    background-color: var(--color-primary);
+    padding: 2rem;
+    box-shadow: 0 2rem 10rem rgb(0,0,0,0.1);
+}
+
+.serviceHead h3{
+    color: var(--color-bg);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.serviceList{
+    padding: 2rem;
+}
+
+.serviceList li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.serviceListIcon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.serviceList p {
+    font-size: 0.9rem;
+}
+
+
+/* ============ Media Quires (Medium devices) ================ */
+  
+@media screen and (max-width:1024px){
+    .serviceContainer{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .service{
+        height: auto;
+    }
+}
+  
+  /* ============ MEDIA QUERY (SMALL DEVICES)==========*/
+  
+  @media screen and (max-width:600PX){
+    .serviceContainer{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
