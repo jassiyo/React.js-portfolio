@@ -4,7 +4,7 @@ import { GiCheckMark } from "react-icons/gi";
 
 const Service = () => {
   return (
-    <section id="services">
+    <section id="service">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
