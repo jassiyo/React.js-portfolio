@@ -17,10 +17,7 @@ const Expirence = () => {
               <HiCheckBadge className="expirenceDetailIcons"/>
               <div>
                 <h4>Html</h4>
-                const gltfloader = GLTFLoader();
-                {/* gltfloader.load('',(gltfScene) =>{
-                  test.scene.add(gltfloader.scene)
-                }) */}
+                
                 <small className='text-light'>Experieance</small>
                 < deer />
               </div>
@@ -57,7 +54,7 @@ const Expirence = () => {
               <HiCheckBadge className="expirenceDetailIcons"/>
               <div>
               <h4>React</h4>
-              <small className='text-light'>Begainer</small>
+              <small className='text-light'>Beginner</small>
               </div>
             </article>
           </div>

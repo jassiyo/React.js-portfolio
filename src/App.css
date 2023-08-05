@@ -20,7 +20,7 @@
     --transition: all 400ms ease;
     
     /* width variable */
-    --container-width-lg: 75%;
+    --container-width-lg:75%;
     --container-width-md:68%;
     --container-width-sm:90%;
   }
