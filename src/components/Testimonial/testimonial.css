@@ -1,0 +1,45 @@
+.container.containerTestimonial{
+    width: 50%;
+    height: auto;
+    padding-bottom: 2.8rem;
+}
+
+.clientAvatar{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+.testimonial{
+    background: var(--color-primary-variant);
+    text-align: center;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    user-select: none;
+}
+.clientReview{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+
+ /* ============ Media Quires (Medium devices) ================ */
+  
+ @media screen and (max-width:1024px){
+    .container.containerTestimonial{
+        width: 60%;
+    }
+  
+  }
+  
+  /* ============ MEDIA QUERY (SMALL DEVICES)==========*/
+  
+  @media screen and (max-width:600PX){
+    .container.containerTestimonial{
+        width: 90%;
+    }
+}

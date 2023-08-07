@@ -29,7 +29,7 @@ const Portfolio = () => {
 
           <h3>This is a portfolio item title</h3>
           <a href='https://github.com/jassiyo'className='btn'>Git HUB</a>
-          <a href='https://jassiyo.github.io/IMDB-Clone/'className='btn btn-primary'>LIVE DEMO</a>
+          <a href='https://jassiyo.github.io/Stopwatch/'className='btn btn-primary'>LIVE DEMO</a>
         </article>
         <article className='portfolioItems'>
           <div className='portfolioItemImage'>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <a href='https://github.com/jassiyo'className='btn'>Git HUB</a>
-          <a href='https://jassiyo.github.io/IMDB-Clone/'className='btn btn-primary'>LIVE DEMO</a>
+          <a href='https://jassiyo.github.io/Stopwatch/'className='btn btn-primary'>LIVE DEMO</a>
         </article>
         <article className='portfolioItems'>
           <div className='portfolioItemImage'>
@@ -65,7 +65,7 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           <a href='https://github.com/jassiyo'className='btn'>Git HUB</a>
-          <a href='https://jassiyo.github.io/IMDB-Clone/'className='btn btn-primary'>LIVE DEMO</a>
+          <a href='https://jassiyo.github.io/Stopwatch/'className='btn btn-primary'>LIVE DEMO</a>
         </article>
         
       </div>
