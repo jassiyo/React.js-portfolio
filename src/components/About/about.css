@@ -42,6 +42,7 @@
 }
 .aboutCard:hover{
     background: var(--color-primary-variant);
+    background: transparent;
     transition: var(--transition);
 }
 
