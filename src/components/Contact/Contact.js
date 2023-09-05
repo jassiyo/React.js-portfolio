@@ -2,8 +2,39 @@ import React from 'react'
 import "../Contact/contact.css"
 import {HiOutlineMail} from "react-icons/hi"
 import {BsWhatsapp} from "react-icons/bs"
+import {useRef} from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, 'IovJlq6uwUXt1uT7')
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset(); // Reset the form after successful sending
+      })
+      .catch((error) => {
+          console.log(error.text);
+      });
+};
+
+
+  
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, '-IovJlq6uwUXt1uT7  ')
+  //     e.target.reset()
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -26,7 +57,7 @@ const Contact = () => {
           </article>
         </div>
         {/* End of Contact option */}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your full name' required/>
           <input type='email' name='email' placeholder='Your Email' required/>
           <textarea name='message' rows={7} placeholder='Your message' required></textarea>
