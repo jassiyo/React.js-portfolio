@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/React.js-portfolio/static/css/main.dcca5909.css",
-    "main.js": "/React.js-portfolio/static/js/main.e4247fc3.js",
+    "main.css": "/React.js-portfolio/static/css/main.c43518d2.css",
+    "main.js": "/React.js-portfolio/static/js/main.fcd18145.js",
     "static/js/787.a2cb61a6.chunk.js": "/React.js-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/imdb.png": "/React.js-portfolio/static/media/imdb.c7a43130a8885e6a795b.png",
     "static/media/about.png": "/React.js-portfolio/static/media/about.260c92a711b907fd2d7f.png",
-    "static/media/mercedeas.png": "/React.js-portfolio/static/media/mercedeas.d852534ff3ab989783a7.png",
     "static/media/profile4.png": "/React.js-portfolio/static/media/profile4.e65b7b89c88128a624e2.png",
-    "static/media/audi.png": "/React.js-portfolio/static/media/audi.a9dcc52eff1e366a2ee4.png",
-    "static/media/cv.pdf": "/React.js-portfolio/static/media/cv.de6ceb91765f3ddf9361.pdf",
+    "static/media/cv.pdf": "/React.js-portfolio/static/media/cv.edd42fb85683efdd6409.pdf",
     "static/media/stopwatch.png": "/React.js-portfolio/static/media/stopwatch.e4f9c26ee40695f8264e.png",
-    "static/media/volks.png": "/React.js-portfolio/static/media/volks.1403d9ec35f836b56988.png",
-    "static/media/bentle.png": "/React.js-portfolio/static/media/bentle.964702018bf05c43b367.png",
     "index.html": "/React.js-portfolio/index.html",
-    "main.dcca5909.css.map": "/React.js-portfolio/static/css/main.dcca5909.css.map",
-    "main.e4247fc3.js.map": "/React.js-portfolio/static/js/main.e4247fc3.js.map",
+    "main.c43518d2.css.map": "/React.js-portfolio/static/css/main.c43518d2.css.map",
+    "main.fcd18145.js.map": "/React.js-portfolio/static/js/main.fcd18145.js.map",
     "787.a2cb61a6.chunk.js.map": "/React.js-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcca5909.css",
-    "static/js/main.e4247fc3.js"
+    "static/css/main.c43518d2.css",
+    "static/js/main.fcd18145.js"
   ]
 }
