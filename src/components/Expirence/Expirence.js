@@ -43,10 +43,11 @@ const Expirence = () => {
               <small className='text-light'>Intermidiate</small>
               </div>
             </article>
+            
             <article className="expirenceDetail">
               <HiCheckBadge className="expirenceDetailIcons"/>
               <div>
-              <h4>Tailwind</h4>
+              <h4>Git/Git Hub</h4>
               <small className='text-light'>Intermidiate</small>
               </div>
             </article>
@@ -54,9 +55,12 @@ const Expirence = () => {
               <HiCheckBadge className="expirenceDetailIcons"/>
               <div>
               <h4>React</h4>
-              <small className='text-light'>Beginner</small>
+              <small className='text-light'>Intermidiate</small>
               </div>
             </article>
+            
+            
+           
           </div>
         </div>
 

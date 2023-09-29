@@ -14,6 +14,7 @@ const Navbar = () => {
       <a href='#expirence' onClick={() => setActiveNav('#expirence')} className= { activeNav === "#expirence" ? 'active' : '' }> <BsJournal /> </a>
       <a href='#service' onClick={() => setActiveNav('#service')} className= { activeNav === "#service" ? 'active' : '' }> <RiServiceLine /> </a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className= { activeNav === "#contact" ? 'active' : '' }> <RiContactsLine /> </a>
+      
     </nav>
   )
 }

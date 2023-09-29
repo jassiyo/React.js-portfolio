@@ -4,12 +4,7 @@
     padding-bottom: 2.8rem;
 }
 
-.clientAvatar{
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    margin: 0 auto 1rem;
-}
+
 
 .testimonial{
     background: var(--color-primary-variant);
@@ -24,6 +19,12 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+}
+.clientName{
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
 }
 
 

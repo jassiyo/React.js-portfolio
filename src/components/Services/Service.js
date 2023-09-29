@@ -17,23 +17,43 @@ const Service = () => {
           <ul className="serviceList">
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Visual Design</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Layout</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Responsive Design</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Accessibility</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>User Research</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Information Architecture</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Interactive Elements</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Wireframing and Prototyping</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Usability Testing</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>User Journey Mapping</p>
             </li>
           </ul>
         </article>
@@ -47,27 +67,35 @@ const Service = () => {
           <ul className="serviceList">
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Front-End Development</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Back-End Development</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Full-Stack Development</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Web Frameworks</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Web Hosting and Deployment</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Responsive Design</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Testing and Debugging</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Version Control</p>
             </li>
           </ul>
         </article>
@@ -81,23 +109,35 @@ const Service = () => {
           <ul className="serviceList">
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Define Your Audience</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Set Clear Goals</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Research and Planning</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Content Formats</p>
             </li>
             <li>
               <GiCheckMark className="serviceListIcon" />
-              <p>qwerty zxcvbnmauiopq jksblvalsin rg aoarsasd fghj</p>
+              <p>Quality Content</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Storytelling</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Engagement</p>
+            </li>
+            <li>
+              <GiCheckMark className="serviceListIcon" />
+              <p>Analytics and Feedback</p>
             </li>
           </ul>
         </article>

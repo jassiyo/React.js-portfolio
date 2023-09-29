@@ -24,30 +24,28 @@ const About = () => {
             <article className="aboutCard">
               <BsAward className="aboutIcon" />
               <h3>Expireance</h3>
-              <small> 11+ Months Working </small>
+              <small> 12 Months Working </small>
             </article>
 
             <article className="aboutCard">
               <AiOutlineUser className="aboutIcon" />
               <h3>Clints</h3>
-              <small> 300+ Clints World Wild </small>
+              <small> 2 Companies </small>
             </article>
 
             <article className="aboutCard">
               <VscFolderOpened className="aboutIcon" />
               <h3>Projects</h3>
-              <small> 7+ Projects </small>
+              <small> 9+ Projects </small>
             </article>
             
           </div>
           <p>
-            src\components\Navbar\Navbar.js Line 12:7: The href attribute
-            requires a valid value to be accessible. Provide a valid, navigable
-            address as the href value. If you cannot provide a valid href, but
-            still need the element to resemble a link, use a button and change
-            it with appropriate styles. Learn more:
-            https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md
-            jsx-a11y/anchor-is-valid webpack compiled with 1 warning
+          Experienced Web Developer with 12 months crafting dynamic, visually pleasing web applications. Proficient in front-end and back-end
+development. Skilled at turning creative concepts into practical, user-friendly solutions across the development cycle - from design and
+coding to testing and deployment. Strong foundation in web technologies, detail-oriented, and committed to creating seamless
+websites that combine aesthetics with functionality. 
+
           </p>
 
           <a href="#contact" className= "btn btn-primary" > Let's Talk</a>

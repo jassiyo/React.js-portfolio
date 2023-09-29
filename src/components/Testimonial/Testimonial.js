@@ -1,9 +1,6 @@
 import React from "react";
 import "../Testimonial/testimonial.css";
-import AVTR1 from "../../assets/mercedeas.png";
-import AVTR2 from "../../assets/bentle.png";
-import AVTR3 from "../../assets/audi.png";
-import AVTR4 from "../../assets/volks.png";
+
 // import Swiper core and required modules
 import { Pagination, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,28 +10,16 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    avatar: AVTR1,
-    name: "Mercedeas",
+    
+    name: "Prodigal A.I",
     review:
-      " There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+      "Revolutionize your customer engagement or internal processes with our AI-Powered Bots. Offering advanced capabilities beyond text, enhance your business interactions with tailored, intelligent conversations across multiple platforms.",
   },
   {
-    avatar: AVTR2,
-    name: "bentle",
+    
+    name: "Vidia",
     review:
-      " There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-  },
-  {
-    avatar: AVTR3,
-    name: "audi",
-    review:
-      " There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-  },
-  {
-    avatar: AVTR4,
-    name: "volks",
-    review:
-      " There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+      "Unlock the power of cloud. Bridge the gap between your digital vision and reality with global technology services from VDA. Accelerate your digital transformation and gain the ability to operate from edge to cloud with the strategic help, operational support, and training you need.",
   },
 ];
 
@@ -51,11 +36,10 @@ const Testimonial = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}>
 
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ name, review }, index) => {
           return (
             <SwiperSlide className="testimonial">
               <div className="clientAvatar">
-                <img src={avatar} alt=""></img>
               </div>
 
               <h5 className="clientName"> {name} </h5>

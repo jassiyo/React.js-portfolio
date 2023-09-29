@@ -8,32 +8,31 @@ import emailjs from 'emailjs-com'
 const Contact = () => {
   const form = useRef();
 
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, 'IovJlq6uwUXt1uT7')
+//       .then((result) => {
+//           console.log(result.text);
+//           e.target.reset(); // Reset the form after successful sending
+//       })
+//       .catch((error) => {
+//           console.log(error.text);
+//       });
+// };
+
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, 'IovJlq6uwUXt1uT7')
-      .then((result) => {
-          console.log(result.text);
-          e.target.reset(); // Reset the form after successful sending
-      })
-      .catch((error) => {
-          console.log(error.text);
-      });
-};
-
-
-  
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, '-IovJlq6uwUXt1uT7  ')
-  //     e.target.reset()
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
+    emailjs.sendForm('service_toecz9w', 'template_oxr8189', form.current, '-IovJlq6uwUXt1uT7  ')
+      // e.target.reset()
+      // .then((result) => {
+      //     console.log(result.text);
+      // }, (error) => {
+      //     console.log(error.text);
+      // });
+  };
 
   return (
     <section id='contact'>
